@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gry JavaScript</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+      }
+
+      h1 {
+        margin-bottom: 20px;
+      }
+
+      button {
+        padding: 10px 20px;
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Wybierz grę</h1>
+    <button onclick="playTicTacToe()">Tic Tac Toe</button>
+    <button onclick="playSnake()">Snake</button>
+    <button onclick="playPong()">Pong</button>
+
+    <script>
+      function playTicTacToe() {
+        window.location.href = 'TicTacToe.html';
+      }
+
+      function playSnake() {
+        window.location.href = 'SNAKE.html';
+      }
+
+      function playPong() {
+        window.location.href = 'PONG.html';
+      }
+    </script>
+  </body>
+</html>
